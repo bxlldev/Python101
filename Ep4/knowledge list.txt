@@ -1,0 +1,29 @@
+
+
+
+-พื้นฐาน function
+-ทำความเข้าใจ concept การบันทึกข้อมูลและการอ่านข้อมูล
+1.ไฟล์ดิบๆ (.txt)
+2.import package - python built-in such as (import csv, open py xl, open py docx, open pptx, for pdf using (reportlab)>>need to design layout จัดหน้ากระดาษ)
+3.tiny db (db standfor "database", without server) such as "sqlite3" using SQL ในการเขียน (มือถือทุกเครื่องใช้ตัวนี้ในการเก็บข้อมูลแน่นอน!!)
+4.แบบมี server (ใช้ PC เป็น server ได้) มี OS เอาไว้ใช้ติดตั้ง program เฉพาะทางเช่น Database (MS SQL Server, My SQL - Apache, XAMP, EngineX, Oracle server ขนาดใหญ่, Postgre SQL)
+	- ทั้งหมดนี้ต้องมี Username/Password, port , private key ในการเชื่อมต่อ
+	- แบบนี้สามารถใช้ PC ติดตั้ง program MS SQL Server, My SQL - Apache, XAMP, EngineX, Oracle server ขนาดใหญ่, Postgre SQL ก็ สามารถตั้ง server ได้แล้ว
+5.API (Application Programming Interface) >> มาตรฐานในการบันทึกข้อมูลจำพวก HTTP >> ใช้ computer เป็นหลายๆตัวมัดรวมกัน แล้วสร้าง VM(Virsual Machine) เหมือน computer จำลอง 1 เครื่อง >> mange by Could system 
+	- เวลาส่งข้อมูลไปบน could จะส่ง/รับข้อมูลโดยใช้ JSON format เช่น {'name1'; 'message'} ตัวแรกจะเรียกว่า header เช่น authentication , token: pasword ส่วนตัวที่สองจะเป็นข้อความที่เราจะใส่เข้าไป
+	- แบบนี้จำเป็นต้องมี server + software แบบที่4 + API program
+6.ฐานข้อมูลขนาดใหญ่ ERP (Enterprise Resourse Planning) เช่น SAP, Oracle, Microsoft, Dynamic NAV
+	- แบบนี้จะ scale ใหญ่มากๆ ใช้เวลาศึกษานานพอสมควร >> แล้วไงอ่ะ ก็ผมจะเรียน55555
+
+-การเก็บข้อมูลใน list เบื้องต้น (array)
+
+
+-dictionary เบื้องต้น (ดึงข้อมูลที่ uniqe ได้อันเดียว เช่น เลขบัตรประชาชน)
+-บันทึกข้อมูลลงไฟล์ CSV
+-การใช้งาน pip
+-ปัญหาที่มักเกิดบ่อยกับ pip
+
+
+
+micro sd card  module (memory for read/write file .txt) >> connected with Rasbery Pi (MicroPython)
+
