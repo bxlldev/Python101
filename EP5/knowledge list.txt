@@ -1,0 +1,91 @@
+
+
+การใช้งาน pip - module ใช้จัดการ package เสริมเพื่อติดตั้ง package/library จากภายนอก
+Checking
+
+python
+pip -V
+
+ติดตั้ง program ลุง
+
+pip install unclechat
+
+
+3 วิธีใช้งาน program ลุง
+
+1.open cmd
+-python -m unclechat
+
+2.open IDLE
+-import unclechat
+
+3.open cmd
+-import unclechat
+
+
+
+ถ้าอยากทำโปรแกรมแบบลุงให้ดูคลิปนี้ ( 8hr++)
+
+https://www.youtube.com/watch?v=MEaEVF3ZWfE
+
+
+ติดตั้ง program อื่นๆของลุง
+
+pip install pimsampas
+
+
+website รวบรวม package ของ python:
+
+pypi.org
+
+
+
+
+ปัญหาที่มักเกิดบ่อยกับ pip
+
+
+พื้นฐาน Python ทั่วไป
+list
+dictionary
+for loop, while loop
+if condition (โปรแพรมแยกวันที่ สมมตุิ 2023-01-05 08:00,เรียน python หัวข้อ ifelse)
+
+
+
+HW: ให้คิดโจทย์ Python โดยใช้ dictionary, for, if condition
+
+
+
+Ex: จงเขียนโปรแกรมที่แสดงอายุเพื่อนที่มีอายุ 20 ปีขึ้นไปจากข้อมูลใน dictionary ตามนี้
+
+friend = {
+'somchai':17,
+'somsak':27,
+'somsuk':18,
+'sommai':25,
+'somboon':29,
+'sompong':19,
+'somsri':20
+}
+
+
+
+
+
+HW: จงเขียนโปรแกรมสำหรับคนที่มาทำงานสายตั้งแต่ 9 โมงเป็นต้นไป จากข้อมูล dictionary ตามนี้
+
+employee = {
+'somchai':8.45,
+'somsak':8.55,
+'somsuk':9.05,
+'sommai':10.00,
+'somboon':8.30,
+'sompong':9.04,
+'somsri':8.25
+}
+
+
+
+
+
+
