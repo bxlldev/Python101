@@ -9,3 +9,8 @@ EP2 Create GUI
 EP3 Github
 
 EP4 GUI_Write&Read CSV file
+
+EP5 pip module and define list function problems 
+
+
+
