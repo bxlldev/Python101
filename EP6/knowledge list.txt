@@ -1,0 +1,11 @@
+1.Class
+ -Attibute > ข้อมูลลักษณะเฉาะของ object
+ -Method > ข้อมูลที่บอกว่า object ทำอะไรได้บ้าง (ต่างจาก Object ตรงนี้ Method จะผูกติดกับ object)
+ -Instance (เรียกใช้ Attibute, Method) > การกำหนดชื่อที่มากจาก object
+ -Constructor > Method ตัวนึงที่อยู่ภายใน Class
+	- มี 2 แบบ >> 1. Constructor with variable
+		  >> 2. Constructor with non-variable
+
+Class based on OOP: Object Oriented Programming
+
+
