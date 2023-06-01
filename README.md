@@ -12,5 +12,7 @@ EP4 GUI_Write&Read CSV file
 
 EP5 pip module and define list function problems 
 
+EP6 Class
+
 
 
