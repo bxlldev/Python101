@@ -3,7 +3,7 @@ class School:
     schoolName = 'ลุงวิศวกร สอนคำนวณ'
 
     # Constructor (ทำงานร่วมกับ Instance)
-    def __init__(self, subject):
+    def __init__(self, subject='Python Programming'):
         print('ให้แสดงข้อความนี้ เมื่อมีการสร้าง Instance')
         self.subject = subject
 
@@ -17,7 +17,7 @@ class School:
         print(f'โรงเรียนนี้ เปิดสอนวิชา : {self.subject}')
 
 # Instance
-school1 = School('Python Programming')
+school1 = School('Math')
 print(f'ชื่อโรงเรียน : {school1.schoolName}')
 school1.hello()
 
